@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:shrinkColumns="*"
+    tools:context="com.myapp.example.aulatablelayout.MainActivity">
+
+    <!-- TODO (1) Inicie um projeto do zero e sobrescreva o Layout padrão do seu projeto pelo TableLayout -->
+    <!-- TODO (2) Adicione uma linha à tabela com a tag <TableRow> -->
+    <!-- TODO (3) Crie uma ImageView com as imagens disponibilizadas em drawable -->
+    <!-- TODO (4) Repita o processo mais duas vezes na mesma linha -->
+    <!-- As imagens ficaram todas do mesmo tamanho? Porque não? -->
+    <!-- As imagens couberam todas na linha, porque uma ou mais ficaram de fora da tela?-->
+    <!-- Experimente usar o shrinkColumns="*" no nível do Layout. O que acontece?-->
+    <!-- TODO (5) Leia mais sobre isto https://developer.android.com/reference/android/widget/TableLayout.html -->
+    <!-- TODO (6) Crie pelo menos mais duas linhas com diferentes imagens -->
+    <!-- TODO (7) Use margin ou padding nas imagens para ver o efeito visual -->
+    <!-- TODO (8) Defina uma cor de fundo para o seu layout -->
+
+
+        <TableRow>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:padding="4dp"
+                android:src="@drawable/img_1"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:padding="4dp"
+                android:src="@drawable/img_12"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:padding="4dp"
+                android:src="@drawable/img_3"/>
+        </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:padding="4dp"
+            android:src="@drawable/img_4"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:padding="4dp"
+            android:src="@drawable/img_5"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:padding="4dp"
+            android:src="@drawable/img_6"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:padding="4dp"
+            android:src="@drawable/img_7"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:padding="4dp"
+            android:src="@drawable/img_8"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:padding="4dp"
+            android:src="@drawable/img_17"/>
+    </TableRow>
+
+</TableLayout>
